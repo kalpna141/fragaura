@@ -6,15 +6,32 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed": "tsx scripts/seed.ts"
   },
   "dependencies": {
+    "@auth/core": "^0.34.3",
+    "auth": "^1.2.3",
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
+    "canvas-confetti": "^1.9.4",
+    "dotenv": "^17.2.3",
+    "framer-motion": "^12.23.24",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.554.0",
+    "mongoose": "^9.0.0",
     "next": "16.0.3",
+    "next-auth": "^4.24.13",
+    "qrcode.react": "^4.2.0",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "react-toastify": "^11.0.5",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -22,6 +39,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
     "typescript": "^5"
   }
 }
